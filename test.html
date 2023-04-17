@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+     <input type="radio" name="myfield" value="Field_One" checked/> Field_One
+     <input type="radio" name="myfield" value="Field_Two" /> Field_Two
+     
+     <div class="Field_One">
+     <input type="text" name="first_name" placeholder="First Name" />
+     <br><br>
+     <input type="text" name="last_name" placeholder="Last Name"/>
+     </div>
+     <br>
+     <br>
+     <div class="Field_Two">
+     <input type="text" name="reference_no" placeholder="reference_no"  />
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+     <script>
+          $(document).ready(function () {
+
+$('input[type="radio"]').click(function () {
+    if ($(this).attr("value") == "Field_One") {
+        $(".Field_One").show();
+        $(".Field_Two").hide();
+    }
+    if ($(this).attr("value") == "Field_Two") {
+        $(".Field_Two").show();
+        $(".Field_One").hide();
+
+    }
+});
+
+$('input[type="radio"]').trigger('click');  // trigger the event
+});
+     </script>
+</body>
+</html>

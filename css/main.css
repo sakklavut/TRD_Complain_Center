@@ -1,0 +1,235 @@
+:root{
+     --bg-header:#fff;
+     --shadow:#f2f2f2;
+     --navigation:#FFE6D4;
+     --data_complaint:#AB4800;
+     --footer:#746648;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+     font-family: 'Prompt', sans-serif;
+     font-size: 18px;
+}
+
+.header{
+     width: 100%;
+     height: 100px;
+     background-color: var(--bg-header);
+     box-shadow: 5px 5px 5px 5px var(--shadow);
+}
+.navigation{
+     margin-top: 8px;
+     width: 100%;
+     height: 100px;
+     background-color: var(--navigation);
+}
+
+.complaint{
+     font-weight: 400;
+     font-size: 40px;
+     padding-top: 1%;
+}
+.sub_text{
+     color: red;
+     font-size: 10px;
+}
+.margin_complaint{
+     margin-top: 2%;
+}
+.margin_checked{
+     margin-left: 35%;
+}
+.mark_red{
+     color: red;
+     font-size: 20px;
+}
+.data_complaint{
+     color: var(--data_complaint);
+}
+.btn_add_data{
+     background-color: var(--data_complaint);
+     border: var(--data_complaint);
+     color: #fff;
+}
+.btn_add_data:hover{
+     background-color: var(--data_complaint);
+     border: var(--data_complaint);
+     color: #fff;
+}
+.footer{
+     width: 100%;
+     height: 70px;
+     background-color: var(--footer);
+}
+.user{
+     color: #fff;
+     margin-top: 5%;
+}
+.stytem{
+     margin-left: 4%;
+     font-size: 19px;
+     margin-top: 7%;
+}
+.btn_search{
+     background-color: #F57A21;
+     color: #fff;
+     width: 100%;
+     border-radius: 999px;
+}
+.btton_login{
+     background-color: #F57A21;
+     color: #fff;
+     width: 50%;
+     border-radius: 999px;
+}
+.btn_otp{
+     background-color: #F57A21;
+     color: #fff;
+     width: 50%;
+     border-radius: 999px;
+     margin-bottom: 10%;
+}
+@media (min-width: 320px) { 
+     .btn_assessment {
+          background-color: #F57A21;
+          color: #fff;
+          width: 50%;
+          margin-bottom: 5%;
+          border-radius: 999px;
+          text-align: center;
+      }
+     .text_assessment{
+          font-size: 10px;
+     }
+     .icon_assessment{
+          width: 100%;
+     }
+     .box_assessment {
+          margin-bottom: 7%;
+          width: 18%;
+          padding: 10px;
+          text-align: center;
+      }
+     .box_logo {
+          width: 370px;
+      }
+     .box_login {
+          width: 200px;
+          margin-top: 3%;
+      }
+     .box_user {
+          margin-top: 0%;
+          margin-left: 2%;
+      }
+      .icon_user {
+          width: 20%;
+          margin-top: -14%;
+      }
+     .box_stytem{
+          width: 150px;
+     }
+     .stytem {
+          margin-left: 4%;
+          font-size: 10px;
+          margin-top: 18%;
+      }
+      .user {
+          color: #fff;
+          font-size: 10px;
+          margin-top: 12%;
+      }
+      .box_text_stytem{
+          width: 300px;
+      }
+      .header {
+          width: 100%;
+          height: 50px;
+          background-color: var(--bg-header);
+          box-shadow: 5px 5px 5px 5px var(--shadow);
+      }
+      .complaint {
+          font-weight: 400;
+          font-size: 27px;
+          padding-top: 8%;
+      }
+ }
+
+ @media (min-width: 768px) {
+     .btn_assessment {
+          width: 25%;
+      }
+     .text_assessment{
+          font-size: 15px;
+     }
+     .header {
+          width: 100%;
+          height: 90px;
+          background-color: var(--bg-header);
+          box-shadow: 5px 5px 5px 5px var(--shadow);
+      }
+      .complaint {
+          font-weight: 400;
+          font-size: 27px;
+          padding-top: 4%;
+      }
+      .box_user {
+          margin-top: 0%;
+          margin-left: 2%;
+      }
+      .icon_user {
+          width: 15%;
+          margin-top: -14%;
+      }
+      .login{
+          margin-left: 5%;
+          margin-top: -4%;
+      }
+      .margin_checked {
+          margin-left: 18%;
+      }
+ }
+
+ @media (min-width: 1024px) {
+     .text_assessment{
+          font-size: 18px;
+     }
+     .icon_assessment {
+          width: 50%;
+      }
+      .margin_checked {
+          margin-left: 28%;
+      }
+ }
+
+ @media (min-width: 1440px) {
+     .btn_assessment {
+          width: 10%;
+      }
+     .margin_checked {
+          margin-left: 35%;
+      }
+      .complaint {
+          font-weight: 400;
+          font-size: 27px;
+          padding-top: 2%;
+      }
+      .box_text_stytem {
+          width: 500px;
+      }
+      .stytem {
+          margin-left: 4%;
+          font-size: 13px;
+          margin-top: 11%;
+      }
+      .box_stytem {
+          width: 269px;
+      }
+      .user {
+          color: #fff;
+          font-size: 14px;
+          margin-top: 12%;
+      }
+}
