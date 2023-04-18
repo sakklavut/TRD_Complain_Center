@@ -13,20 +13,49 @@ body{
      font-family: 'Prompt', sans-serif;
      font-size: 18px;
 }
-
+A:link {
+     text-decoration:none;
+     }
 .header{
      width: 100%;
      height: 100px;
      background-color: var(--bg-header);
      box-shadow: 5px 5px 5px 5px var(--shadow);
 }
+.modal-footer {
+     display: flex;
+     flex-wrap: wrap;
+     flex-shrink: 0;
+     align-items: center;
+     justify-content: flex-end;
+     padding: .75rem;
+     border-top:0px solid #dee2e6 !important;
+     border-bottom-right-radius: calc(.3rem - 1px);
+     border-bottom-left-radius: calc(.3rem - 1px)
+ }
 .navigation{
      margin-top: 8px;
      width: 100%;
      height: 100px;
      background-color: var(--navigation);
 }
-
+.text_compla{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 30px; 
+}
+.manual{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 30px;
+     color: #515151; 
+}
+.estimate{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 30px;
+     color: #515151; 
+}
 .complaint{
      font-weight: 400;
      font-size: 40px;
@@ -92,12 +121,131 @@ body{
      border-radius: 999px;
      margin-bottom: 10%;
 }
+
 @media (min-width: 320px) { 
+     .line_2 {
+          margin-top: 5px;
+          margin-bottom: 6px;
+          width: 100%;
+          height: 0px;
+          border: 1px solid #cccccc;
+      }
+     .carousel-indicators {
+          position: absolute;
+          top: 91px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin-right: 15%;
+          margin-bottom: 1rem;
+          margin-left: 15%;
+          list-style: none;
+      }
+     .box1_banner{
+          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .sup_box1_banner{
+         background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 93%;
+          height: 76px;
+          position: absolute;
+          top: 255px;
+          padding: 5px;
+     }
+     .sup_box2_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 93%;
+          height: 76px;
+          position: absolute;
+          top: 534px;
+          padding: 5px;
+     }
+     .sup_box3_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 93%;
+          height: 76px;
+          position: absolute;
+          top: 813px;
+          padding: 5px;
+     }
+     .sup_box4_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 93%;
+          height: 76px;
+          position: absolute;
+          top: 1094px;
+          padding: 5px;
+     }
+     .icon_main_banner_1{
+          position: absolute;
+          top: 135px;
+          left: 36%;
+     }
+     .icon_main_banner_2{
+          position: absolute;
+          top: 414px;
+          left: 32%;
+     }
+     .icon_main_banner_3{
+          position: absolute;
+          top: 693px;
+          left: 29%;
+     }
+     .icon_main_banner_4{
+          position: absolute;
+          top: 974px;
+          left: 31%;
+     }
+     .line{
+          width: 102px;
+          height: 0px;
+          border: 5px solid #FF6D00;
+     }
      .btn_assessment {
           background-color: #F57A21;
           color: #fff;
           width: 50%;
           margin-bottom: 5%;
+          border-radius: 999px;
+          text-align: center;
+      }
+      .btn_clue {
+          background-color: #F57A21;
+          color: #fff;
+          width: 25%;
           border-radius: 999px;
           text-align: center;
       }
@@ -158,6 +306,77 @@ body{
  }
 
  @media (min-width: 768px) {
+     .carousel-indicators {
+          position: absolute;
+          top: 140px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin-right: 15%;
+          margin-bottom: 1rem;
+          margin-left: 15%;
+          list-style: none;
+      }
+     .icon_main_banner_2 {
+          position: absolute;
+          top: 178px;
+          left: 66%;
+      }
+      .icon_main_banner_1 {
+          position: absolute;
+          top: 178px;
+          left: 21%;
+      }
+      .icon_main_banner_3 {
+          position: absolute;
+          top: 463px;
+          left: 19%;
+      }
+      .icon_main_banner_4 {
+          position: absolute;
+          top: 464px;
+          left: 66%;
+      }
+     .sup_box1_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 44%;
+          height: 76px;
+          position: absolute;
+          top: 298px;
+          padding: 5px;
+      }
+      .sup_box2_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 53%;
+          height: 76px;
+          position: absolute;
+          top: 298px;
+          padding: 5px;
+      }
+      .sup_box3_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 44%;
+          height: 76px;
+          position: absolute;
+          top: 583px;
+          padding: 5px;
+      }
+      .sup_box4_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 44%;
+          height: 76px;
+          position: absolute;
+          top: 584px;
+          padding: 5px;
+      }
      .btn_assessment {
           width: 25%;
       }
@@ -193,6 +412,7 @@ body{
  }
 
  @media (min-width: 1024px) {
+     
      .text_assessment{
           font-size: 18px;
      }
@@ -202,9 +422,125 @@ body{
       .margin_checked {
           margin-left: 28%;
       }
+      .box1_banner{
+          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .sup_box1_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box2_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box3_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box4_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .icon_main_banner_1{
+          position: absolute;
+          top: 180px;
+          left: 15%;
+     }
+     .icon_main_banner_2{
+          position: absolute;
+          top: 180px;
+          left: 35%;
+     }
+     .icon_main_banner_3{
+          position: absolute;
+          top: 180px;
+          left: 56%;
+     }
+     .icon_main_banner_4{
+          position: absolute;
+          top: 180px;
+          left: 78%;
+     }
+     .line{
+          width: 102px;
+          height: 0px;
+          border: 5px solid #FF6D00;
+     }
+     .line_2{
+          margin-top: 40px;
+          margin-bottom: 22px;
+          width: 100%;
+          height: 0px;
+          border: 1px solid #cccccc;
+     }
+     .carousel-indicators {
+          position: absolute;
+          top: 275px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin-right: 15%;
+          margin-bottom: 1rem;
+          margin-left: 15%;
+          list-style: none;
+      }
+      .complaint {
+          font-weight: 400;
+          font-size: 27px;
+          padding-top: 2%;
+      }
  }
 
- @media (min-width: 1440px) {
+ @media (min-width: 1900px) {
      .btn_assessment {
           width: 10%;
       }
@@ -232,4 +568,110 @@ body{
           font-size: 14px;
           margin-top: 12%;
       }
+      .box1_banner{
+          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .sup_box1_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 16%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box2_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 16%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box3_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 16%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .sup_box4_banner{
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 16%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+     }
+     .icon_main_banner_1{
+          position: absolute;
+          top: 180px;
+          left: 22%;
+     }
+     .icon_main_banner_2{
+          position: absolute;
+          top: 180px;
+          left: 38%;
+     }
+     .icon_main_banner_3{
+          position: absolute;
+          top: 180px;
+          left: 55%;
+     }
+     .icon_main_banner_4{
+          position: absolute;
+          top: 180px;
+          left: 73%;
+     }
 }
+.carousel-indicators [data-bs-target] {
+     border-radius: 50%;
+     box-sizing: content-box;
+     flex: 0 1 auto;
+     width: 15px;
+     height: 15px;
+     padding: 0;
+     margin-right: 3px;
+     margin-left: 3px;
+     text-indent: -999px;
+     cursor: pointer;
+     background-color: #ff7979;
+     background-clip: padding-box;
+     border: 0;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+     opacity: .5;
+     transition: opacity .6s ease;
+ }
+ .carousel-indicators .active{
+     background-color: #ff0000;
+ }

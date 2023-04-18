@@ -2,7 +2,7 @@
   <div class="container">
       <div class="d-flex  justify-content-between">
           <div class="box_logo">
-                <img class="img-fluid" src="icon/logo.svg" alt="">
+               <a href="index.php"> <img class="img-fluid" src="icon/logo.svg" alt=""> </a>
           </div>
           <div class="box_login">
                 <div class="d-flex box_user">
@@ -87,22 +87,61 @@
       
       <div class="modal-body">
           <div class="row">
-               <div class="col-xl-12 text-center">
+               <div class="col-xl-12">
                     <h4>ลงทะเบียน</h4>
                </div>
           </div>
-          <div class="row">
-                <div class="col-xl-12 text-center">
-                    <input type="text" class="form-control" id="#" placeholder="เลขประจำตัวประชาชน">
-                    <small class="mark_red">
-                       *กรุณากรอกเลขบัตรประชาชนของคุณเราจะทำการส่งรหัส OTP ไปยังเบอร์โทรศัพท์ของคุณ
-                    </small>
+          <div class="row mb-2">
+                <div class="col-xl-6">
+                  <select class="form-select">
+                    <option selected>คำนำหน้าชื่อ</option>
+                    <option value="1">นาย</option>
+                    <option value="2">นาง</option>
+                    <option value="3">นางสาว</option>
+                 </select>
                 </div>
+          </div>
+          <div class="row mb-2">
+                <div class="col-xl-6">
+                     <input type="text" id="#" class="form-control"  placeholder="ชื่อ" >
+                </div>
+                <div class="col-xl-6">
+                     <input type="text" id="#" class="form-control"  placeholder="นามสกุล" >
+                </div>
+          </div>
+          <div class="row mb-2">
+                <div class="col-xl-6">
+                     <input type="text" id="#" class="form-control"  placeholder="เลขประจำตัวประชาชน" >
+                </div>
+                <div class="col-xl-6">
+                     <input type="text" id="#" class="form-control"  placeholder="เบอร์โทร" >
+                </div>
+          </div>
+          <div class="row">
+                <div class="col-xl-6">
+                  <div class="input-group has-validation mb-1">
+                      <input type="password" class="form-control pass-swap" placeholder="รหัสผ่าน">
+                        <span class="input-group-text input-group-append" id="inputGroupPrepend">
+                                <i class="fa fa-eye icon_eye"></i>
+                        </span>
+                  </div>
+                  <small class="sub_text">*กรุณากรอกตัวเลข ตัวอักษรตัวเล็กและใหญ่</small>
+                </div>
+          </div>
+          <div class="d-flex justify-content-center">
+              <div>
+                    <div class="form-check">
+                        <input type="radio" name="" id="" value="">
+                            <label class="form-check-label" for="">
+                              ฉันได้อ่านและยอมรับ <u>ข้อตกลงในการใช้งาน</u> 
+                              </label>
+                    </div>
+              </div>
           </div>
       </div>
       <div class="row">
             <div class="col-xl-12 text-center">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#otp" data-bs-dismiss="modal" class="btn btn_otp">ยืนยัน</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#register_alert" data-bs-dismiss="modal" class="btn btn_otp">ลงทะเบียน</button>
             </div>
         </div>
     </div>
@@ -124,7 +163,7 @@
           <div class="row">
                 <div class="col-xl-12 text-center">
                     <input type="text" class="form-control" id="#" placeholder="เลขประจำตัวประชาชน">
-                    <small class="mark_red">
+                    <small class="sub_text">
                        *กรุณากรอกเลขบัตรประชาชนของคุณเราจะทำการส่งรหัส OTP ไปยังเบอร์โทรศัพท์ของคุณ
                     </small>
                 </div>
@@ -138,6 +177,9 @@
     </div>
   </div>
 </div>
+
+
+
 
 
 <!-- Modal otp -->
@@ -154,8 +196,8 @@
           <div class="row">
                 <div class="col-xl-12 text-center">
                     <input type="text" class="form-control" id="#" placeholder="รหัส OTP">
-                    <small class="mark_red">
-                        *กรุณากรอกรหัส OTP ที่ส่งไปยังเบอร์โทรศัพท์ <br> 089-2XXX-XX33
+                    <small class="sub_text">
+                        *กรุณากรอกรหัส OTP ที่ส่งไปยังเบอร์โทรศัพท์  089-2XXX-XX33
                     </small>
                 </div>
           </div>
@@ -227,6 +269,26 @@
   </div>
 </div>
 
+
+<!-- Modal แจ้งเตือนลงทะเบียน -->
+<div class="modal fade" id="register_alert" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <img src="icon/feedback.svg" alt="">
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                     <p> ลงทะเบียนเรียบร้อยแล้ว</p>
+               </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

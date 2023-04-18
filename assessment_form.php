@@ -85,11 +85,33 @@
      </div>
      <div class="row">
           <div class="col-xl-12 text-center">
-               <button type="button" class="btn btn_assessment">ตกลง</button>
+               <button type="button" class="btn btn_assessment"  data-bs-toggle="modal" data-bs-target="#exampleModal">ตกลง</button>
           </div>
      </div>
 </div>
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <img src="icon/feedback.svg" alt="">
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                     <p> ระบบได้ทำการส่งเรื่องร้องเรียนเรียบร้อยแล้ว</p>
+               </div>
+          </div>
+      </div> 
+    </div>
+  </div>
+</div>
 
 <?php include('footer.php'); ?>
 <?php include('combottom.php'); ?>

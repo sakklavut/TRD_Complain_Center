@@ -217,7 +217,7 @@
                                         <div class="col-xl-12">
                                              <table class="table">
                                                   <thead>
-                                                       <tr>
+                                                       <tr class="table-danger">
                                                             <th scope="col">ลำดับ</th>
                                                             <th scope="col">ชื่อเอกสาร</th>
                                                             <th scope="col">ไฟล์แนบ</th>
@@ -336,7 +336,7 @@
                                         <div class="col-xl-12">
                                              <table class="table">
                                                   <thead>
-                                                       <tr>
+                                                       <tr class="table-danger">
                                                             <th scope="col">ลำดับ</th>
                                                             <th scope="col">ชื่อเอกสาร</th>
                                                             <th scope="col">ไฟล์แนบ</th>
@@ -383,10 +383,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+
       <div class="modal-body">
           <div class="row">
                <div class="col-xl-3 text-center">
