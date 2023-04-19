@@ -304,7 +304,95 @@ A:link {
           padding-top: 8%;
       }
  }
-
+ @media (min-width: 425px) {
+     
+     .icon_main_banner_4 {
+          position: absolute;
+          top: 995px;
+          left: 31%;
+      }
+     .sup_box4_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 95%;
+          height: 76px;
+          position: absolute;
+          top: 1116px;
+          padding: 5px;
+      }
+     .sup_box1_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 95%;
+          height: 76px;
+          position: absolute;
+          top: 264px;
+          padding: 5px;
+      }
+ }
+ @media (min-width: 375px) {
+     .carousel-indicators {
+          position: absolute;
+          top: 110px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin-right: 15%;
+          margin-bottom: 1rem;
+          margin-left: 15%;
+          list-style: none;
+      }
+     .sup_box4_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 95%;
+          height: 76px;
+          position: absolute;
+          top: 1115px;
+          padding: 5px;
+      }
+     .sup_box3_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 94%;
+          height: 76px;
+          position: absolute;
+          top: 835px;
+          padding: 5px;
+      }
+     .icon_main_banner_2 {
+          position: absolute;
+          top: 428px;
+          left: 32%;
+      }
+     .sup_box2_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 94%;
+          height: 76px;
+          position: absolute;
+          top: 546px;
+          padding: 5px;
+      }
+     .sup_box1_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 94%;
+          height: 76px;
+          position: absolute;
+          top: 260px;
+          padding: 5px;
+      }
+      .icon_main_banner_1 {
+          position: absolute;
+          top: 141px;
+          left: 36%;
+      }
+ }
  @media (min-width: 768px) {
      .carousel-indicators {
           position: absolute;
@@ -453,7 +541,7 @@ A:link {
      .sup_box1_banner{
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 21%;
+          width: 19%;
           height: 76px;
           position: absolute;
           top: 300px;
@@ -462,7 +550,7 @@ A:link {
      .sup_box2_banner{
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 21%;
+          width: 19%;
           height: 76px;
           position: absolute;
           top: 300px;
@@ -471,7 +559,7 @@ A:link {
      .sup_box3_banner{
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 21%;
+          width: 19%;
           height: 76px;
           position: absolute;
           top: 300px;
@@ -480,7 +568,7 @@ A:link {
      .sup_box4_banner{
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 21%;
+          width: 19%;
           height: 76px;
           position: absolute;
           top: 300px;
