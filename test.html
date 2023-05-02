@@ -1,0 +1,25 @@
+<div id="myRadioGroup">
+    
+     <input type="radio" name="cars" checked="checked" value="2"  />
+     
+     3 Cars<input type="radio" name="cars" value="3" />
+     
+     <div id="Cars2" class="desc">
+         2 Cars Selected
+     </div>
+     <div id="Cars3" class="desc" style="display: none;">
+         3 Cars
+     </div>
+ </div>
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+     $(document).ready(function() {
+    $("input[name$='cars']").click(function() {
+        var test = $(this).val();
+
+        $("div.desc").hide();
+        $("#Cars" + test).show();
+    });
+});
+ </script>
