@@ -93,7 +93,7 @@
      </div>
      <div class="row">
           <div class="col-xl-12 text-center">
-               <button type="button" class="btn btn_assessment">ตกลง</button>
+            <a href="from_complaint.php">    <button type="button" class="btn btn_assessment">ตกลง</button> </a>
           </div>
      </div>
 </div>

@@ -15,7 +15,7 @@
                                              <img src="icon/icon_1.svg" alt="">
                                         </div>
                                         <div class="col-xl-9   col-9 p-1">
-                                             <a href="from_complaint.php"> <h4 class="text-white text_compla">ร้องเรียนร้องทุกข์บัตรสนเท่ห์</h4> </a>
+                                             <a href="agreement_complaint.php"> <h4 class="text-white text_compla">ร้องเรียนร้องทุกข์บัตรสนเท่ห์</h4> </a>
                                         </div>
                                    </div>
                               </div>
