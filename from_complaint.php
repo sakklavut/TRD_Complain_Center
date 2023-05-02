@@ -245,16 +245,6 @@
                               </div>
                          </div>
                          <div class="row">
-                              <div class="col-xl-12">
-                                   <div class="form-check margin_checked">
-                                        <input class="form-check-input" type="radio" name="" id="" value="" >
-                                        <label class="form-check-label" for="">
-                                             ข้อตกลงหลักเกณฑ์รับเรื่องร้องเรียน/ร้องทุกข์
-                                        </label>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="row">
                               <div class="col-xl-12 text-center">
                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">ตกลง</button>
                               </div>
@@ -466,7 +456,7 @@ $('input[type="radio"]').click(function () {
     }
 });
 
-$('input[type="radio"]').trigger('click');  // trigger the event
+$('input[type="radio"]').trigger('Field_One');  // trigger the event
 });
 
 function thisFileUpload() {
