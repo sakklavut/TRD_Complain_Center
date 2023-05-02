@@ -37,7 +37,7 @@
                     </div>
                     <div class="row mb-2">
                          <div class="col-xl-2">
-                              <label class="form-check-label" for="#">สถานที่ </label>
+                              <label class="form-check-label" for="#">สถานที่เกิดเหตุ </label>
                          </div>
                          <div class="col-xl-10">
                               <input type="text" class="form-control" >

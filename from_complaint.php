@@ -99,6 +99,14 @@
                          </div>
                          <div class="row mb-2">
                               <div class="col-xl-2">
+                                   <label class="form-check-label" for="#">สถานที่เกิดเหตุ <small class="mark_red">*</small></label>
+                              </div>
+                              <div class="col-xl-10">
+                                   <input type="text" class="form-control" >
+                              </div>
+                         </div>
+                         <div class="row mb-2">
+                              <div class="col-xl-2">
                                         <label class="form-check-label" for="#">จังหวัด <small class="mark_red">*</small></label>
                               </div>
                               <div class="col-xl-2">
@@ -289,6 +297,14 @@
                          </div>
                          <div class="row mb-2">
                               <div class="col-xl-2">
+                                   <label class="form-check-label" for="#">สถานที่เกิดเหตุ <small class="mark_red">*</small></label>
+                              </div>
+                              <div class="col-xl-10">
+                                   <input type="text" class="form-control" >
+                              </div>
+                         </div>
+                         <div class="row mb-2">
+                              <div class="col-xl-2">
                                         <label class="form-check-label" for="#">จังหวัด <small class="mark_red">*</small></label>
                               </div>
                               <div class="col-xl-2">
@@ -354,16 +370,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="row">
-                              <div class="col-xl-12">
-                                   <div class="form-check margin_checked">
-                                        <input type="radio" name="" id="" value="" >
-                                        <label class="form-check-label" for="">
-                                             ข้อตกลงหลักเกณฑ์รับเรื่องร้องเรียน/ร้องทุกข์
-                                        </label>
-                                   </div>
-                              </div>
-                         </div>
+                        
                          <div class="row">
                               <div class="col-xl-12 text-center">
                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">ตกลง</button>
