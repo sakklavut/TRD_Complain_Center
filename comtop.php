@@ -14,6 +14,6 @@
 
     <script src="js/jquery-3.6.4.min.js"></script>
     
-    <title>ศูนย์ร้องเรียนร้องทุกช์ กรมธนารักษ์ TRD Complain Center</title>
+    <title>ศูนย์ร้องเรียนร้องทุกข์ กรมธนารักษ์ TRD Complain Center</title>
   </head>
   <body>

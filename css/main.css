@@ -46,13 +46,13 @@ A:link {
 }
 .manual{
      font-weight: 600;
-     font-size: 20px;
+     font-size: 15px;
      line-height: 30px;
      color: #515151; 
 }
 .estimate{
      font-weight: 600;
-     font-size: 20px;
+     font-size: 15px;
      line-height: 30px;
      color: #515151; 
 }
@@ -346,20 +346,20 @@ A:link {
           margin-left: 15%;
           list-style: none;
       }
-     .sup_box4_banner {
+      .sup_box4_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
           width: 95%;
-          height: 76px;
+          height: 96px;
           position: absolute;
           top: 1115px;
           padding: 5px;
       }
-     .sup_box3_banner {
+      .sup_box3_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 94%;
-          height: 76px;
+          width: 95%;
+          height: 89px;
           position: absolute;
           top: 835px;
           padding: 5px;
@@ -369,20 +369,20 @@ A:link {
           top: 428px;
           left: 32%;
       }
-     .sup_box2_banner {
+      .sup_box2_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 94%;
-          height: 76px;
+          width: 95%;
+          height: 84px;
           position: absolute;
           top: 546px;
           padding: 5px;
       }
-     .sup_box1_banner {
+      .sup_box1_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 94%;
-          height: 76px;
+          width: 95%;
+          height: 82px;
           position: absolute;
           top: 260px;
           padding: 5px;
@@ -538,62 +538,62 @@ A:link {
           height: 250px;
           margin-top: 10%;
      }
-     .sup_box1_banner{
+     .sup_box1_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 19%;
-          height: 76px;
+          width: 45%;
+          height: 87px;
           position: absolute;
           top: 300px;
           padding: 5px;
-     }
-     .sup_box2_banner{
+      }
+      .sup_box2_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 19%;
-          height: 76px;
+          width: 45%;
+          height: 107px;
           position: absolute;
           top: 300px;
           padding: 5px;
-     }
-     .sup_box3_banner{
+      }
+      .sup_box3_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 19%;
-          height: 76px;
+          width: 45%;
+          height: -114px;
           position: absolute;
-          top: 300px;
+          top: 608px;
           padding: 5px;
-     }
-     .sup_box4_banner{
+      }
+      .sup_box4_banner {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
           border-radius: 0px 0px 10px 10px;
-          width: 19%;
+          width: 45%;
           height: 76px;
           position: absolute;
-          top: 300px;
+          top: 606px;
           padding: 5px;
-     }
-     .icon_main_banner_1{
+      }
+      .icon_main_banner_1 {
           position: absolute;
           top: 180px;
-          left: 15%;
-     }
-     .icon_main_banner_2{
+          left: 23%;
+      }
+      .icon_main_banner_2 {
           position: absolute;
           top: 180px;
-          left: 35%;
-     }
-     .icon_main_banner_3{
+          left: 69%;
+      }
+      .icon_main_banner_3 {
           position: absolute;
-          top: 180px;
-          left: 56%;
-     }
-     .icon_main_banner_4{
+          top: 489px;
+          left: 21%;
+      }
+      .icon_main_banner_4 {
           position: absolute;
-          top: 180px;
-          left: 78%;
-     }
+          top: 490px;
+          left: 70%;
+      }
      .line{
           width: 102px;
           height: 0px;
@@ -627,6 +627,136 @@ A:link {
           padding-top: 2%;
       }
  }
+
+ @media (min-width: 1440px) {
+     .sup_box1_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+      }
+      .text_assessment{
+          font-size: 18px;
+     }
+     .icon_assessment {
+          width: 50%;
+      }
+      .margin_checked {
+          margin-left: 28%;
+      }
+      .box1_banner{
+          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .sup_box2_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 107px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+      }
+      .sup_box3_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: -114px;
+          position: absolute;
+          top: 298px;
+          padding: 5px;
+      }
+      .sup_box4_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 298px;
+          padding: 5px;
+      }
+      .icon_main_banner_1 {
+          position: absolute;
+          top: 180px;
+          left: 15%;
+      }
+      .icon_main_banner_2 {
+          position: absolute;
+          top: 180px;
+          left: 36%;
+      }
+      .icon_main_banner_3 {
+          position: absolute;
+          top: 177px;
+          left: 56%;
+      }
+      .icon_main_banner_4 {
+          position: absolute;
+          top: 180px;
+          left: 79%;
+      }
+     .line{
+          width: 102px;
+          height: 0px;
+          border: 5px solid #FF6D00;
+     }
+     .line_2{
+          margin-top: 40px;
+          margin-bottom: 22px;
+          width: 100%;
+          height: 0px;
+          border: 1px solid #cccccc;
+     }
+     .carousel-indicators {
+          position: absolute;
+          top: 275px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin-right: 15%;
+          margin-bottom: 1rem;
+          margin-left: 15%;
+          list-style: none;
+      }
+      .complaint {
+          font-weight: 400;
+          font-size: 27px;
+          padding-top: 2%;
+      }
+ }
+
+
 
  @media (min-width: 1900px) {
      .btn_assessment {
