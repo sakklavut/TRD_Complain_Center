@@ -97,14 +97,7 @@
                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                               </div>
                          </div>
-                         <div class="row mb-2">
-                              <div class="col-xl-2">
-                                   <label class="form-check-label" for="#">สถานที่เกิดเหตุ <small class="mark_red">*</small></label>
-                              </div>
-                              <div class="col-xl-10">
-                                   <input type="text" class="form-control" >
-                              </div>
-                         </div>
+                         
                          <div class="row mb-2">
                               <div class="col-xl-2">
                                         <label class="form-check-label" for="#">จังหวัด <small class="mark_red">*</small></label>
@@ -174,6 +167,14 @@
                               </div>
                               <div class="col-xl-10">
                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                         </div>
+                         <div class="row mb-2">
+                              <div class="col-xl-2">
+                                   <label class="form-check-label" for="#">สถานที่เกิดเหตุ <small class="mark_red">*</small></label>
+                              </div>
+                              <div class="col-xl-10">
+                                   <input type="text" class="form-control" >
                               </div>
                          </div>
                          <div class="row mb-2">
