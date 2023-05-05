@@ -3,21 +3,14 @@
 
 <div class="navigation">
      <div class="d-flex justify-content-center">
-          <h1 class="complaint">ข้อตกลงหลักเกณฑ์รับเรื่องร้องเรียน/ร้องทุกข์</h1>
+          <h1 class="complaint"> หนังสือให้ความยินยอมในการเก็บรวบรวม/ใช้/เปิดเผยข้อมูล
+กรมธนารักษ์</h1>
      </div>
 </div>
 
 <div class="container">
      <div class="row">
-          <div class="col-xl-12 p-3 text-center">
-               <h4>
-               หนังสือให้ความยินยอมในการเก็บรวบรวม/ใช้/เปิดเผยข้อมูล
-กรมธนารักษ์
-               </h4>
-          </div>
-     </div>
-     <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 mt-3">
                <p>ให้ความสำคัญกับความเป็นส่วนตัวจึงขอความยินยอมเพื่อการเก็บรวมรวบ ใช้ และ/หรือเปิดเผยข้อมูลที่ท่านให้ไว้หรือที่ได้รับมาจากแหล่งอื่น อาทิ เช่น ข้อความ รูปภาพ พิกัดตำแหน่งสำหรับวัตถุประสงค์ดังนี้</p>
                     <ol>
                          <li>
@@ -33,14 +26,9 @@
                </p>
           </div>
           <div class="row">
-               <div class="col-xl-12">
-                    <div class="d-flex">
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                         <label class="p-3" for="">
-                         ข้าพเจ้าขอรับรองว่าข้อเท็จจริงที่ได้แจ้งเรื่องร้องเรียนต่อศูนย์รับข้อร้องเรียนกระทรวงพลังงานเป็นเรื่องที่เกิดขึ้นจริงทั้งหมดและขอรับผิดชอบ
-     ต่อข้อเท็จจริงดังกล่าวข้างต้นทุกประการ
-                         </label>
-                    </div>
+               <div class="col-xl-12 text-center">
+                         <input type="radio" id="#" name="#" value="#">
+                         <label class="p-3" for="">ยินยอม</label>
                </div>
           </div>
      </div>

@@ -39,7 +39,7 @@
                                    <img src="icon/Group 818.svg" alt="">
                               </div>
                               <div class="col-xl-8 col-8 col-sm-6 mt-4">
-                                 <a href="agreement_complaint.php"> <h5 class="manual">คู่มือการใช้งาน</h5></a>
+                                 <a href="agreement_complaint.php"> <h4 class="manual">คู่มือการใช้งาน</h4></a>
                               </div>
                          </div>
                     </div>
@@ -58,7 +58,7 @@
                                    <img src="icon/Group 819.svg" alt="">
                               </div>
                               <div class="col-xl-8 col-8 col-sm-6 mt-4">
-                                 <a href="assessment_form.php"> <h5 class="estimate">ประเมินความพึงพอใจ<br>การใช้งานระบบ</h5> </a>
+                                 <a href="assessment_form.php"> <h4 class="estimate">ประเมินความพึงพอใจ<br>การใช้งานระบบ</h4> </a>
                               </div>
                          </div>
                     </div>
