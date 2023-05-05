@@ -23,3 +23,123 @@
     });
 });
  </script>
+
+
+
+<div id="Cars3" class="desc" style="display: none;">
+     <div class="shadow-sm p-3 mb-5 bg-white rounded">
+          <div class="Field_Two">
+               <div class="row mb-2">
+                    <div class="col-xl-2">
+                         <label class="form-check-label" for="#">วันที่แจ้งเรื่องร้องเรียน <small class="mark_red">*</small></label>
+                    </div>
+                    <div class="col-xl-4">
+                         <input type="date" class="form-control">
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="shadow-sm p-3 mb-5 bg-white rounded">
+          <div class="row mb-2">
+               <div class="col-xl-12">
+                    <h4 class="data_complaint">ข้อมูลเรื่องร้องเรียน</h4>
+               </div>
+          </div>
+          <div class="row mb-2">
+               <div class="col-xl-2">
+                    <label class="form-check-label" for="#">ชื่อเรื่องร้องเรียน <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-10">
+                    <input type="text" class="form-control" >
+               </div>
+          </div>
+          <div class="row mb-2">
+               <div class="col-xl-2">
+                    <label class="form-check-label" for="#">รายละเอียด <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+               </div>
+          </div>
+          <div class="row mb-2">
+               <div class="col-xl-2">
+                    <label class="form-check-label" for="#">สถานที่เกิดเหตุ <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-10">
+                    <input type="text" class="form-control" >
+               </div>
+          </div>
+          <div class="row mb-2">
+               <div class="col-xl-2">
+                         <label class="form-check-label" for="#">จังหวัด <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-2">
+                    <div class="form-group">
+                         <select class="form-control" id="exampleFormControlSelect1">
+                              <option>เลือกจังหวัด</option>
+                         </select>
+                    </div>
+               </div>
+               <div class="col-xl-1">
+                         <label class="form-check-label text-right" for="#">อำเภอ <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-3">
+                    <div class="form-group">
+                         <select class="form-control" id="exampleFormControlSelect1">
+                              <option>เลือกอำเภอ</option>
+                         </select>
+                    </div>
+               </div>
+               <div class="col-xl-1">
+                         <label class="form-check-label text-right" for="#">ตำบล <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-3">
+                    <div class="form-group">
+                         <select class="form-control" id="exampleFormControlSelect1">
+                              <option>เลือกตำบล</option>
+                         </select>
+                    </div>
+               </div>
+          </div>
+          <div class="row mb-2">
+               <div class="col-xl-2">
+                    <label class="form-check-label" for="#">แนบเอกสาร <small class="mark_red">*</small></label>
+               </div>
+               <div class="col-xl-10">
+                    <div class="row mt-2">
+                         <div class="d-flex justify-content-end">
+                              <div>
+                                   <input type="file" id="file" style="display:none;" />
+                                   <button id="button" class="btn btn_add_data" name="button" value="Upload" onclick="thisFileUpload();">เพิ่มข้อมูล</button>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-xl-12">
+                              <table class="table">
+                                   <thead>
+                                        <tr class="table-danger">
+                                             <th scope="col">ลำดับ</th>
+                                             <th scope="col">ชื่อเอกสาร</th>
+                                             <th scope="col">ไฟล์แนบ</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                             <th scope="row">1</th>
+                                             <td>แบบฟอร์มร้องเรียน</td>
+                                             <td>from_compl.docx</td>  
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">ตกลง</button>
+               </div>
+          </div>
+     </div>
+</div>  

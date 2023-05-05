@@ -16,7 +16,7 @@
                                                   <img class="img-fluid" src="icon/icon_1.svg" alt="">
                                              </div>
                                              <div class="box_text_banner">
-                                                  <a href="agreement_complaint.php"> <h4 class="text-white text_compla">ร้องเรียนร้องทุกข์บัตรสนเท่ห์</h4></a>
+                                                  <a href="agreement_complaint.php"> <h4 class="text-white text_compla">ร้องเรียนร้องทุกข์/บัตรสนเท่ห์</h4></a>
                                              </div>
                                         </div>
                                    </div>
