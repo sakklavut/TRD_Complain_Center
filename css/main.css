@@ -172,29 +172,29 @@ A:link {
           margin-left: 15%;
           list-style: none;
       }
-     .box1_banner{
-          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+      .box1_banner{
+          background: #07436E;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box2_banner{
-          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          background: #36800D;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box3_banner{
-          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          background: #B26B00;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box4_banner{
-          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          background: #B94503;
           border-radius: 10px;
           width: 100%;
           height: 250px;
@@ -303,22 +303,22 @@ A:link {
           width: 20%;
           margin-top: -14%;
       }
-     .box_stytem{
-          width: 150px;
-     }
+      .box_stytem {
+          width: 223px;
+      }
      .stytem {
           margin-left: 4%;
-          font-size: 10px;
-          margin-top: 18%;
+          font-size: 15px;
+          margin-top: 10%;
       }
       .user {
           color: #fff;
-          font-size: 10px;
+          font-size: 15px;
           margin-top: 12%;
       }
-      .box_text_stytem{
-          width: 300px;
-      }
+     .box_text_stytem {
+          width: 990px;
+     }
       .header {
           width: 100%;
           height: 50px;
@@ -358,6 +358,34 @@ A:link {
       }
  }
  @media (min-width: 375px) {
+      .box1_banner{
+          background: #07436E;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: #36800D;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: #B26B00;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: #B94503;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
      .carousel-indicators {
           position: absolute;
           top: 110px;
@@ -524,6 +552,34 @@ A:link {
       .margin_checked {
           margin-left: 18%;
       }
+       .box1_banner{
+          background: #07436E;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: #36800D;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: #B26B00;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: #B94503;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
  }
 
  @media (min-width: 1024px) {
@@ -568,29 +624,29 @@ A:link {
       .margin_checked {
           margin-left: 28%;
       }
-      .box1_banner{
-          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+ .box1_banner{
+          background: #07436E;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box2_banner{
-          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          background: #36800D;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box3_banner{
-          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          background: #B26B00;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box4_banner{
-          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          background: #B94503;
           border-radius: 10px;
           width: 100%;
           height: 250px;
@@ -686,6 +742,100 @@ A:link {
       }
  }
 
+ @media (min-width: 1300px) {
+     .text_compla {
+          font-weight: 600;
+          font-size: 22px;
+          margin-top: 0px;
+      }  
+      .sup_box1_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 71px;
+          position: absolute;
+          top: 300px;
+          padding: 5px;
+      }
+      .sup_box2_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 67px;
+          position: absolute;
+          top: 299px;
+          padding: 5px;
+      }
+      .box_text_banner_2 {
+          width: 140px;
+          height: 65px;
+          margin-left: 8px;
+         
+      }
+      .sup_box3_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: -114px;
+          position: absolute;
+          top: 298px;
+          padding: 5px;
+      }
+      .box_text_banner_3 {
+
+          width: 119px;
+          height: 65px;
+          margin-left: 9px;
+      }
+      .sup_box4_banner {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.62) 100%);
+          border-radius: 0px 0px 10px 10px;
+          width: 21%;
+          height: 76px;
+          position: absolute;
+          top: 297px;
+          padding: 5px;
+      }
+      .box_text_banner_4 {
+          width: 222px;
+          height: 65px;
+          margin-left: 7px;
+      }
+      .box_text_banner {
+          width: 282px;
+          height: 65px;
+          margin-left: 0px;
+      }
+       .box1_banner{
+          background: #07436E;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box2_banner{
+          background: #36800D;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box3_banner{
+          background: #B26B00;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+     .box4_banner{
+          background: #B94503;
+          border-radius: 10px;
+          width: 100%;
+          height: 250px;
+          margin-top: 10%;
+     }
+ }
+
  @media (min-width: 1440px) {
      .box_text_banner_4{
           width: 222px;
@@ -735,28 +885,28 @@ A:link {
           margin-left: 28%;
       }
       .box1_banner{
-          background: linear-gradient(129.14deg, #38C5F2 1.74%, #0F4B82 94.4%);
+          background: #07436E;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box2_banner{
-          background: linear-gradient(304.84deg, #27930C 6.72%, #ADFF00 90.65%);
+          background: #36800D;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box3_banner{
-          background: linear-gradient(123.3deg, #EBFF00 0%, #B5AF20 100%);
+          background: #B26B00;
           border-radius: 10px;
           width: 100%;
           height: 250px;
           margin-top: 10%;
      }
      .box4_banner{
-          background: linear-gradient(124.14deg, #FFB800 2.64%, #C85A0A 97.18%);
+          background: #B94503;
           border-radius: 10px;
           width: 100%;
           height: 250px;
@@ -841,6 +991,22 @@ A:link {
           font-size: 27px;
           padding-top: 2%;
       }
+      .box_stytem {
+          width: 300px;
+     }
+     .stytem {
+          margin-left: 4%;
+          font-size: 15px;
+          margin-top: 10%;
+      }
+      .user {
+          color: #fff;
+          font-size: 15px;
+          margin-top: 12%;
+      }
+     .box_text_stytem {
+          width: 990px;
+     }
  }
 
 
